@@ -41,3 +41,7 @@ function lanciaDado() {
         }, 3000);
     });
 }
+
+lanciaDado()
+    .then(numero => { console.log(numero); })
+    .catch(errore => { console.log(errore); })
